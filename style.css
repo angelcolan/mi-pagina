@@ -31,7 +31,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(101, 33, 165);
+    background-color: rgb(125, 125, 125);
 }
 
 .container{
@@ -172,19 +172,35 @@ header a:hover{
   ,url("img/wash.jpg"); 
 }
 
-/*
-#nuestros-trabajos .carousel-item{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 15px;
-}
-*/
 
-.carousel-inner{
-
-    max-width: 400px;
+#nuestros-trabajos{
+    max-width: 1000px;
     margin: auto;
-   
+    text-align: center;
+    padding: 100px 12px;
+     
 }
+
+#nuestros-trabajos .carousel-inner{
+    border-radius: 5%;
+
+}
+
+
+#ubicanos{
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  )
+  ,url("img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+    
+}
+
