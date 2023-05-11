@@ -172,10 +172,19 @@ header a:hover{
   ,url("img/wash.jpg"); 
 }
 
+/*
 #nuestros-trabajos .carousel-item{
     background-position: center center;
     background-size: cover;
     padding: 50px;
     margin: 20px;
     border-radius: 15px;
+}
+*/
+
+.carousel-inner{
+
+    max-width: 600px;
+    margin: auto;
+   
 }
